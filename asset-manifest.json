@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/Transition_Website/static/css/main.d61febf5.css",
+    "main.js": "/Transition_Website/static/js/main.18819ec0.js",
+    "static/media/hikeselfie.jpg": "/Transition_Website/static/media/hikeselfie.91e6d113ea1ed6142de2.jpg",
+    "static/media/PDFtitle.png": "/Transition_Website/static/media/PDFtitle.452e5501ca32e4ec06b3.png",
+    "static/media/GettingOUT.png": "/Transition_Website/static/media/GettingOUT.86eb989097506fc0197d.png",
+    "static/media/AboutMetitle.png": "/Transition_Website/static/media/AboutMetitle.92c1de94d5821150a473.png",
+    "static/media/TransitionTitle.png": "/Transition_Website/static/media/TransitionTitle.ad2127e5466e22785235.png",
+    "static/media/TerminalCalc.png": "/Transition_Website/static/media/TerminalCalc.9ab82a588cf061fac67a.png",
+    "static/media/Header2.png": "/Transition_Website/static/media/Header2.3cc010e86e467e092606.png",
+    "pdf.worker.js": "/Transition_Website/05ddc916155e8fdf47b3c6839fe0c31a.js",
+    "static/media/paytable.jpg": "/Transition_Website/static/media/paytable.aa3741cf07aea5956bf8.jpg",
+    "static/media/Tranpdf.pdf": "/Transition_Website/static/media/Tranpdf.ba8da31129bb8567b4dd.pdf",
+    "static/media/BDDimage.jpg": "/Transition_Website/static/media/BDDimage.4a29e2a004688f62f03d.jpg",
+    "static/media/TAP.jpg": "/Transition_Website/static/media/TAP.2330a39869b964bd3443.jpg",
+    "static/media/LinkedScreenshot.jpg": "/Transition_Website/static/media/LinkedScreenshot.80d501f19d9d46cec0c5.jpg",
+    "static/media/Vemploy.jpg": "/Transition_Website/static/media/Vemploy.02cd0cd635baa2e8a461.jpg",
+    "static/media/mpimage.jpg": "/Transition_Website/static/media/mpimage.2794a785a7d742e508cf.jpg",
+    "static/media/hcimage.jpg": "/Transition_Website/static/media/hcimage.1841ede805e7aace8159.jpg",
+    "static/media/LPS.jpg": "/Transition_Website/static/media/LPS.ebd5b797564cdc3831b2.jpg",
+    "static/media/loading.svg": "/Transition_Website/static/media/loading.330b7d99bfbae8039a5456998d97914f.svg",
+    "index.html": "/Transition_Website/index.html",
+    "main.d61febf5.css.map": "/Transition_Website/static/css/main.d61febf5.css.map",
+    "main.18819ec0.js.map": "/Transition_Website/static/js/main.18819ec0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d61febf5.css",
+    "static/js/main.18819ec0.js"
+  ]
+}
