@@ -35,14 +35,14 @@ const PdfVersion = () => {
           <div className="Example__container__load">
             {/* <label htmlFor="file">Load from file:</label>{' '} */}
             {/* <input onChange={onFileChange} type="file" /> */}
-             <a id="pdflink" href = {Pdf} target = "_blank">Download Pdf</a>
-          </div>
+             <a id="pdflink" href = {Pdf} target = "_blank" style={{fontSize: '50px'}}>Download Pdf</a>
+          {/* </div>
           <div className="Example__container__document">
             <Document file={Pdf} onLoadSuccess={onDocumentLoadSuccess} options={options}>
               {Array.from(new Array(numPages), (el, index) => (
                 <Page key={`page_${index + 1}`} pageNumber={index + 1} />
               ))}
-            </Document>
+            </Document> */}
             
           </div>
         </div>
