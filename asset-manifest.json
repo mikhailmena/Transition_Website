@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Transition_Website/static/css/main.d61febf5.css",
-    "main.js": "/Transition_Website/static/js/main.5b8d9b07.js",
+    "main.js": "/Transition_Website/static/js/main.5dcf9c65.js",
     "static/media/hikeselfie.jpg": "/Transition_Website/static/media/hikeselfie.91e6d113ea1ed6142de2.jpg",
     "static/media/PDFtitle.png": "/Transition_Website/static/media/PDFtitle.452e5501ca32e4ec06b3.png",
     "static/media/GettingOUT.png": "/Transition_Website/static/media/GettingOUT.86eb989097506fc0197d.png",
@@ -22,10 +22,10 @@
     "static/media/loading.svg": "/Transition_Website/static/media/loading.330b7d99bfbae8039a5456998d97914f.svg",
     "index.html": "/Transition_Website/index.html",
     "main.d61febf5.css.map": "/Transition_Website/static/css/main.d61febf5.css.map",
-    "main.5b8d9b07.js.map": "/Transition_Website/static/js/main.5b8d9b07.js.map"
+    "main.5dcf9c65.js.map": "/Transition_Website/static/js/main.5dcf9c65.js.map"
   },
   "entrypoints": [
     "static/css/main.d61febf5.css",
-    "static/js/main.5b8d9b07.js"
+    "static/js/main.5dcf9c65.js"
   ]
 }
