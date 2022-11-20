@@ -32,7 +32,7 @@ const AboutMe = () => {
               <br></br>
               <a href="https://github.com/mikhailmena/">Github</a>
               <br></br>
-              <a href="mailto:marcmmenard@gmail.com">Email</a>
+              <a href="mailto:marcmmenard@gmail.com">Email marcmmenard@gmail.com</a>
               <br></br>
               <a href="https://www.linkedin.com/in/marc-m-menard/">Linkedin</a>
 
