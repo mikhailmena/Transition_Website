@@ -31,6 +31,7 @@ body {
     color: blue;
     text-decoration: underline;     
     text-decoration-color: blue;  
+    text-shadow: 1px 1px white;
   }
   
   .Example__container {
@@ -70,4 +71,27 @@ body {
   .Example__container__document .react-pdf__message {
     padding: 20px;
     color: white;
+  }
+
+  #selfie{
+    position: relative;
+    left: 0em;
+  }
+  Card{
+    position: relative;
+    left: 10em;
+  }
+  #title{
+    position: relative;
+    left: 0em;
+  }
+  #resheader{
+    position: relative;
+    left: 9em;
+  }
+
+  a{
+    color: blue;
+    
+    text-shadow: 1px 1px black;
   }

@@ -6,6 +6,7 @@ const Calculators = () => {
     return (
         <div>
             <DBpay/>
+            <h1 style={{color: 'white'}}>External Calculator Links</h1>
             <RMC/>
         </div>
     )

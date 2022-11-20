@@ -1,5 +1,5 @@
 import React from 'react';
-import { Slide } from 'react-slideshow-image';
+import { Slide,Zoom } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import contentData from "../utils/contentData";
 import "./Slideshow.css"
@@ -21,9 +21,11 @@ import Slide11 from '../Slides/Slide11';
 
 //make .map function to render content data inside of slideshow
 const Slideshow = () => {
+  const indicators = (index) => (<div className="indicator">{index + 1}</div>);
     return (
       <div  className="slide-container">
-        <Slide>
+       
+        <Slide autoplay={true} pauseOnHover={true} easing={"ease"} transitionDuration={2000} indicators={indicators} scale={1.4}>
             <div className="each-slide" >
               <Slide1/>
             </div>

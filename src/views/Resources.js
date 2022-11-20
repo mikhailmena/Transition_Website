@@ -9,7 +9,7 @@ class Content extends Component {
   render() {
     return (
       <div className="next-steps my-5">
-        <img id="resheader" src={image} style={{height: 220}}/>
+        <img  id="resheader" src={image} style={{height: 220}}/>
         {/* <h2 className="my-5 text-center">Transition Resources</h2> */}
         <Row className="d-flex justify-content-between">
           {contentData.map((col, i) => (

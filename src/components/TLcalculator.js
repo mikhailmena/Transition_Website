@@ -36,7 +36,8 @@ const DBpay = () => {
     setaftertaxValue(pretaxValue - taxedAmount)
     console.log("monthlyPay: ", monthlyPay, " dailybasicpay: ", dailybasicpay, "leaveValue: ", leaveDays, "pretax value: ", pretaxValue, "taxed Amount: ", taxedAmount, "after taxValue: ", aftertaxValue)
     this.forceUpdate();
-    
+    CalculateDBP()
+    CalculateDBP()
    }
 
  const CalculateDBP = () => {
@@ -112,8 +113,8 @@ const DBpay = () => {
       <p>The formula to determine the value of your terminal leave is daily basic pay: ${dailybasicpay.toFixed(2)}  multiplied by leave days: 
         {leaveDays} minus the standard 25% **tax penatly ${taxedAmount.toFixed(2)}  of the pretax Value: ${pretaxValue.toFixed(2)} for a final total of ${aftertaxValue.toFixed(2)}</p>
           <div onFocus={CaclulateValues}>
-          <button onClick={CaclulateValues} onFocus={CaclulateValues}> Caclulate Value</button>
-          <button onClick={CaclulateValues} onFocus={CaclulateValues}> Update Values</button>
+          <button onClick={CaclulateValues} onFocus={CaclulateValues}> Caclulate Pre Tax Value</button>
+          <button onClick={CaclulateValues} onFocus={CaclulateValues}> Calculate After Tax Value</button>
           </div>
       <table>
           <thead>

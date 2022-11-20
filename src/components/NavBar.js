@@ -35,8 +35,8 @@ const NavBar = () => {
         alt="logo"
         src="./military-man.png"
         style={{
-          height: 40,
-          width: 40
+          height: 70,
+          width: 70
         }}
       /></NavbarBrand>  
           <NavbarToggler onClick={toggle} />
@@ -83,16 +83,31 @@ const NavBar = () => {
                     Resources
                   </NavLink>
                 </NavItem>
-            </Nav>
-            <Nav className="d-none d-md-block" navbar>
-              
+                <NavItem>
+                  <NavLink
+                    tag={RouterNavLink}
+                    to="/AboutMe"
+                    exact
+                    activeClassName="router-link-exact-active"
+                  >
+                    About Me
+                  </NavLink>
+                </NavItem>
+                 <NavItem>
+                <span>     ...........                    </span>
+                </NavItem>
                 <NavItem>
                 <a id="booklink" href='https://www.amazon.com/How-Influential-Leader-Identify-leadership-ebook/dp/B0BHPX4CQ4/ref=sr_1_8?crid=DRVN9C656O4N&keywords=how+to+be+an+influential+leader&qid=1667247908&qu=eyJxc2MiOiItMC4wMCIsInFzYSI6IjAuMDAiLCJxc3AiOiIwLjAwIn0%3D&sprefix=how+to+be+an+influential+leader%2Caps%2C121&sr=8-8'>
-      <img src="./BookCover.png" alt="bookcover" style={{width: '20%'}}></img>
-       </a>
+                  <img src="./BookCover.png" alt="bookcover" style={{width: '20%'}}></img>
+                </a>
                 </NavItem>
+               
+            </Nav>
+            
+              
+                
 
-              </Nav>
+              
             
           </Collapse>
         </Container>
