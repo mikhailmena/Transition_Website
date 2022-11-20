@@ -1,0 +1,57 @@
+table, th, td {
+    border: 2px solid black;
+    border-radius: 22px;
+    padding: 5px 10px 10px;
+    text-align: center;
+    font-size: 20px;
+  }
+  body{
+    font-size: 20px;
+  }
+
+  #calcdiv{
+    /* border: 5px; */
+    /* border-color:  black; */
+    border-radius: 22px;
+    border-style: solid;
+    padding: 5px 10px 10px;
+    background-color: wheat;
+  }
+  h1{
+    color: blue;
+    text-align: center;
+  }
+  #calchead{
+    left: 20%;
+  }
+  label{
+    font-weight: 800;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  select{
+    padding-right: 10px;
+    width: 60px;
+    text-align: center;
+  }
+  p{
+    /* border-radius: 22px;
+    border-style: solid; */
+    padding: 5px 10px 10px;
+    font-weight: 600;
+    background-color: white;
+  }
+  img{
+    position: relative;
+    right: 20%;
+  }
+
+  #after{
+    font-size: 25px;
+    font-weight: 900;
+    color: green;
+  }
+  input{
+    width: 60px;
+    text-align: center;
+  }
