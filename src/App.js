@@ -36,7 +36,7 @@ const App = () => {
 
         <Container id="DisplayDiv" className="">
           <Switch>
-            <Route path="/" exact component={Home} />
+            <Route path="/Transition_Website" exact component={Home} />
             <Route path="/resources" exact component={Resources}/>
             <Route path="/Calculators" component={Calculators} />
             <Route path="/pdfversion" exact component={PdfVersion}/>
